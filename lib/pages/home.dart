@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:sevval1/auth.dart';
 import 'package:flutter/material.dart';
-import 'package:sevval1/pages/empty.dart';
+import 'package:sevval1/pages/login_register.dart';
 
 class HomePage extends StatelessWidget {
   HomePage({super.key});
@@ -77,7 +77,7 @@ class HomePage extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => EmptyPage()),
+                  MaterialPageRoute(builder: (context) => LoginPage()),
                 );
               },
               child: const Text(

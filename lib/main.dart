@@ -5,11 +5,11 @@ import 'package:sevval1/widget_tree.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-  runApp(VoyagerApp());
+  runApp(OvuApp());
 }
 
-class VoyagerApp extends StatelessWidget {
-  const VoyagerApp({super.key});
+class OvuApp extends StatelessWidget {
+  const OvuApp({super.key});
 
   @override
   Widget build(BuildContext context) {

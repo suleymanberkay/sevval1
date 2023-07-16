@@ -51,7 +51,7 @@ class _LoginPageState extends State<LoginPage> {
           child: Column(
             children: [
               const SizedBox(height: 50),
-              Image.asset('assets/voyager.png', height: 250),
+              Image.asset('assets/welcome.png', height: 250),
               const SizedBox(height: 30),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,

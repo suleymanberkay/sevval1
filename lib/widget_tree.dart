@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:sevval1/auth.dart';
-import 'package:sevval1/pages/empty.dart';
 import 'package:sevval1/pages/home.dart';
 import 'package:sevval1/pages/login_register.dart';
 
@@ -18,7 +17,7 @@ class _WidgetTreeState extends State<WidgetTree> {
         stream: Auth().authStateChanges,
         builder: (context, snapshot) {
           if (snapshot.hasData) {
-            return EmptyPage();
+            return LoginPage();
           } else {
             return const LoginPage();
           }
